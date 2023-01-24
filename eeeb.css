@@ -1,0 +1,209 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(to right,rgb(244, 252, 127) ,red);
+    border-top: 10px solid rgb(255, 255, 255);
+    margin-top: 10px
+}
+header a{
+ color: #000;
+}
+#logobox{
+    width: 30%;
+    height: 100%;
+    float: right;
+    background-color: aliceblue;
+}
+#vinland{
+    float:left;
+    line-height: 100px;
+    padding: 0px 15px;
+}
+#logo{
+    height: 100%;
+    border-radius: 50%;
+}
+nav{
+    width: 70%;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    
+}
+nav a:hover{
+    background-color: aliceblue;
+    color: #000;
+    width: 100%;
+    height: 100%;
+}
+nav li{
+    display: inline-block;
+    line-height: 100px;
+    width: 100px;
+    
+    text-align: center;
+}
+main{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 237, 179);
+    border-top: 3px solid white;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    animation-name: changeBackground;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+#atricle{
+width: 70%;
+height: 500px;
+/*
+background-color: #000;*/
+float: right;
+position: relative;
+}
+#box{
+    text-align: center;
+    padding: 20px!IMPORTANT;
+    position: absolute;
+    width: 400px;
+    max-width: 100% !IMPORTANT;
+    height: 180px;
+    background-color: aliceblue;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+#vid{
+    width: 400px;
+    height: 160px;
+
+}
+    
+#ss{
+    margin-top:42px !important;
+}
+#kk{
+    border-bottom:3px solid red ;
+}
+@keyframes changeBackground{
+    0%{
+        background-color: aliceblue;
+    }
+    50%{
+        background-color: rgb(244, 252, 127);
+    }
+    80%{
+        background-color: red;
+    }
+    50%{
+        background-color: rgb(244, 252, 127);
+    }
+}
+aside{
+    width: 30%;
+    height: 100%;
+    background-image: linear-gradient(to bottom,rgb(244, 252, 127) ,red);
+    float: left;
+    text-align: center;
+    /*clip-path: circle(50% at 50% 50%);*/
+}
+aside img{
+          width: 90%;
+          border-radius: 50%;
+          height: 80%;
+          margin-top: 10px;
+          padding-top: 0px;
+}
+
+#thor{
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+
+}
+#id{
+    font-size: x-large;
+    color: #000;
+    word-spacing: 0px;
+    letter-spacing: 10px;
+}
+.class{
+    color: aquamarine;
+}
+
+/*@media only screen and (orientation:landscape){
+    
+    #logobox{ background-color: blueviolet;
+
+    }*/
+    
+#bad{
+    width: 100px;
+    height: 100px;
+}
+footer{
+    width:100%;
+    height: 300px;
+}/*
+#meem{
+    
+}
+#meeem{
+          border-radius: 30%;
+          margin-top: 10px;
+          padding-top: 20px;
+          margin-left: 20px;
+          margin-left: 40px;
+    width: 25%;
+    height: 500px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    
+}
+
+#raa{
+    width: 25%;
+    height: 500px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;*/
+
+
+#course1, #course2 {
+    text-align: center;
+    clear: both;}
+    #course2 {
+        text-align: center;
+        clear: both;}
+        #course1 img, #course2 img {
+            max-width: 28%;
+            margin: 10px;
+            height: 500px;
+            width: 25%;
+        }
+        #course1 {
+            text-align: center;
+            clear: both;}
+            #course1 {
+                text-align: center;
+                clear: both;}
+                #course1 img,  {
+                    max-width: 28%;
+                    margin: 10px;
+                height: 500px;
+                width: 25%;
+            }
